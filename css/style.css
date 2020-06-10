@@ -11,18 +11,20 @@
 }
 
 .container {
-    width: 70%;
+    width: 65%;
     max-width: 1200px;
     margin: 0 auto;
     /* DA CANCELLARE */
     height: 100%;
-    background-color: orange;
+    /* background-color: orange; */
     border: 5px solid white;
 }
 
 .container.background {
-    background-image: ();
-    background-size: cover;
+    background-image:url('https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png');
+    background-size: 800px 300px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .blue {
@@ -38,12 +40,31 @@ nav {
 
 .banner {
     height: 330px;
+    position: relative;
 }
 
 .testo-banner {
-    width: 50%;
-    height: 100%;
-    border: 1px solid white;
+    width: 350px;
+    height:100px;
+    color: white;
+    position: absolute;
+    top: 30%;
+    /* transform: translate(-50%, -50%); */
+}
+
+.testo-banner h1 {
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 70px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
 }
 
 .grey {
